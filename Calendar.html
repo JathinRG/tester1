@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Arctic Bites – Calendar</title>
+  <link rel="icon" href="C:\Users\gundr\OneDrive\codingstuff\snowconecompany\images\mainlogo (1).png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #e8f8ff;
+    color: #003344;
+}
+
+h1, h2, h3 {
+    color: #006699;
+    text-align: center;
+}
+
+header {
+    background: #0099cc;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+nav {
+    background: #0077aa;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    color: #ccefff;
+    text-decoration: underline;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+#calendar ul {
+    list-style: none;
+    padding: 0;
+}
+
+#calendar li {
+    background: white;
+    padding: 12px;
+    margin: 10px 0;
+    border-left: 6px solid #0099cc;
+    border-radius: 6px;
+    box-shadow: 0 0 5px #aac;
+    font-size: 1.1rem;
+}
+
+form {
+    width: 70%;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px #bcd;
+}
+
+label {
+    font-weight: bold;
+    color: #004466;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 20px 0;
+    border: 2px solid #0099cc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+    border-color: #006699;
+}
+
+input[type="submit"] {
+    background: #0099cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+input[type="submit"]:hover {
+    background: #0077aa;
+}
+
+footer {
+    background: #0077aa;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.4rem;
+}
+
+.social-icons a:hover {
+    color: #ccefff;
+}
+</style>
+
+<body>
+
+<header>
+  <img src="C:\Users\gundr\OneDrive\codingstuff\snowconecompany\images\mainlogo (1).png">
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="calendar.html">Calendar</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<h1>Event Calendar</h1>
+
+<div class="container">
+  <h2>Where to Find Arctic Bites</h2>
+
+  <div id="calendar" style="font-size:1.2rem;">
+  <h3>2025 Booked Events</h3>
+  <ul>
+    <li><strong>January 12:</strong> Winter Festival – City Park — <strong>10:00 AM – 3:00 PM</strong></li>
+    <li><strong>February 3:</strong> School Fundraiser – Weston High — <strong>11:00 AM – 2:00 PM</strong></li>
+    <li><strong>March 18:</strong> Spring Market – Downtown Plaza — <strong>12:00 PM – 5:00 PM</strong></li>
+    <li><strong>April 22:</strong> Earth Day Celebration – Greenway — <strong>9:00 AM – 1:00 PM</strong></li>
+    <li><strong>May 9:</strong> Youth Sports Day – Lakeside Fields — <strong>2:00 PM – 6:00 PM</strong></li>
+    <li><strong>June 1:</strong> Summer Kickoff – Beach Pavilion — <strong>1:00 PM – 6:00 PM</strong></li>
+  </ul>
+</div>
+</div>
+
+<h2>Request Our Snow Cone Truck</h2>
+
+<form>
+  <label>Your Name:</label>
+  <input type="text" placeholder="Enter your name">
+
+  <label>Your Email:</label>
+  <input type="email" placeholder="Enter your email">
+
+  <label>Your Phone Number:</label>
+  <input type="text" placeholder="Enter your phone number">
+
+  <label>Requested Date:</label>
+  <input type="date">
+
+  <label>Event Description:</label>
+  <textarea placeholder="Describe your event"></textarea>
+
+  <input type="submit" value="Submit Request">
+</form>
+
+<footer>
+  <div class="social-icons">
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-tiktok"></i></a>
+  </div>
+  © 2025 Arctic Bites
+</footer>
+
+</body>
+</html>
+			

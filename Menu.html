@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Arctic Bites – Menu</title>
+  <link rel="icon" href="C:\Users\gundr\OneDrive\codingstuff\snowconecompany\images\mainlogo (1).png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #e8f8ff;
+    color: #003344;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 20px;
+    color: #006699;
+}
+
+h2 {
+    font-size: 2.3rem;
+    margin-top: 40px;
+    color: #006699;
+}
+
+h3 {
+    font-size: 1.7rem;
+    color: #004466;
+}
+
+header {
+    background: #0099cc;
+    padding: 15px 0;
+}
+
+header img {
+    width: 140px;
+    height: auto;
+}
+
+nav {
+    background: #0077aa;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+nav a:hover {
+    color: #ccefff;
+    text-decoration: underline;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+}
+
+.pricing-box {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px #bcd;
+    width: 60%;
+    margin: 20px auto 40px auto;
+}
+
+.pricing-box table {
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.pricing-box th {
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+
+.pricing-box td {
+    padding: 12px;
+}
+
+.flavors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.flavor-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #bcd;
+}
+
+.flavor-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.flavor-card p {
+    font-size: 1.2rem;
+}
+
+.classic-list {
+    list-style: none;
+    padding: 0;
+    font-size: 1.6rem;
+    margin-top: 20px;
+}
+
+.classic-list li {
+    background: white;
+    padding: 12px;
+    margin: 10px auto;
+    width: 50%;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #aac;
+}
+
+footer {
+    background: #0077aa;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.6rem;
+}
+
+.social-icons a:hover {
+    color: #ccefff;
+}
+</style>
+
+<body>
+
+<header>
+  <img src="C:\Users\gundr\OneDrive\codingstuff\snowconecompany\images\mainlogo (1).png" alt="Arctic Bites Logo">
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="calendar.html">Calendar</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<h1>Our Menu</h1>
+
+<div class="pricing-box">
+  <table>
+    <tr><th colspan="2">Prices</th></tr>
+    <tr><td>Small</td><td>$3.00</td></tr>
+    <tr><td>Medium</td><td>$4.50</td></tr>
+    <tr><td>Large</td><td>$6.00</td></tr>
+  </table>
+</div>
+
+<div class="container">
+
+  <div class="fotm" style="font-size:1.8rem; font-weight:bold; margin-bottom:20px;">
+    ⭐ Flavor of the Month: Polar Prism ⭐
+  </div>
+
+  <h2>Signature Flavors</h2>
+
+  <div class="flavors-grid">
+
+    <div class="flavor-card">
+      <img src="C:\Users\gundr\OneDrive\codingstuff\snowconecompany\images\grapesnowcone.jpg">
+      <h3>Galaxy Grape Blast</h3>
+      <p>Deep grape swirl with stardust shimmer.</p>
+    </div>
+
+    <div class="flavor-card">
+      <img src="C:\Users\gundr\OneDrive\codingstuff\snowconecompany\images\tropicalsnowcone.jpg">
+      <h3>Tropical Thunder</h3>
+      <p>Mango, pineapple, and electric lime fusion.</p>
+    </div>
+
+    <div class="flavor-card">
+      <img src="C:\Users\gundr\OneDrive\codingstuff\snowconecompany\images\rainbowsnowcone.jpg">
+      <h3>Rainbow Rush</h3>
+      <p>A colorful explosion of all our top flavors.</p>
+    </div>
+
+    <div class="flavor-card">
+      <img src="C:\Users\gundr\OneDrive\codingstuff\snowconecompany\images\bluesnowcone.jpg">
+      <h3>Blue Blizzard Burst</h3>
+      <p>Blue raspberry freeze with arctic ice crystals.</p>
+    </div>
+
+    <div class="flavor-card">
+      <img src="C:\Users\gundr\OneDrive\codingstuff\snowconecompany\images\cherry.jpg">
+      <h3>Cherry Volcano</h3>
+      <p>Cherry lava with a spicy cinnamon kick.</p>
+    </div>
+
+    <div class="flavor-card">
+      <img src="C:\Users\gundr\OneDrive\codingstuff\snowconecompany\images\cottoncandy.jpg">
+      <h3>Cotton Candy Cloud</h3>
+      <p>Sweet cotton candy with fluffy vanilla mist.</p>
+    </div>
+
+  </div>
+
+  <h2>Classic Flavors</h2>
+  <ul class="classic-list">
+    <li>Blue Raspberry</li>
+    <li>Cherry Blast</li>
+    <li>Tropical Mango</li>
+    <li>Watermelon Wave</li>
+    <li>Lemon Lime Frost</li>
+  </ul>
+
+</div>
+
+<footer>
+  <div class="social-icons">
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-tiktok"></i></a>
+  </div>
+  © 2025 Arctic Bites
+</footer>
+
+</body>
+</html>
